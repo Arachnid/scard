@@ -1,0 +1,6 @@
+pcscd-hotplug_libudev.o: hotplug_libudev.c /usr/include/stdc-predef.h \
+ ../config.h
+
+/usr/include/stdc-predef.h:
+
+../config.h:

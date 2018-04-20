@@ -1,0 +1,10 @@
+pcscd-hotplug_macosx.o: hotplug_macosx.c /usr/include/stdc-predef.h \
+ ../config.h misc.h pcscd.h
+
+/usr/include/stdc-predef.h:
+
+../config.h:
+
+misc.h:
+
+pcscd.h:

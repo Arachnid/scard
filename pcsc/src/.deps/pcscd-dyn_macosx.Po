@@ -1,0 +1,17 @@
+pcscd-dyn_macosx.o: dyn_macosx.c /usr/include/stdc-predef.h ../config.h \
+ misc.h ../src/PCSC/pcsclite.h ../src/PCSC/wintypes.h \
+ ../src/PCSC/debuglog.h dyn_generic.h
+
+/usr/include/stdc-predef.h:
+
+../config.h:
+
+misc.h:
+
+../src/PCSC/pcsclite.h:
+
+../src/PCSC/wintypes.h:
+
+../src/PCSC/debuglog.h:
+
+dyn_generic.h:

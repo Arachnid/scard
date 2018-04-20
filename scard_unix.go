@@ -2,12 +2,26 @@
 
 package scard
 
-// #cgo pkg-config: libpcsclite
-// #include <stdlib.h>
-// #include <winscard.h>
+/*
+
+#cgo CFLAGS: -I./pcsc/src -I./pcsc -I./pcsc/src/PCSC
+#include <stdlib.h>
+#include "winscard.h"
+
+#include "debug.c"
+#include "error.c"
+#include "winscard_clnt.c"
+#include "simclist.c"
+#include "strlcat.c"
+#include "strlcpy.c"
+#include "sys_unix.c"
+#include "utils.c"
+#include "winscard_msg.c"
+*/
 import "C"
 
 import (
+//  _ "github.com/karalabe/hid"
 	"unsafe"
 )
 
